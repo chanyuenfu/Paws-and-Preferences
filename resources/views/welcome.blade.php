@@ -19,7 +19,7 @@
 <body class="antialiased font-sans">
     <div class="relative min-h-screen bg-pink-300 flex flex-col">
         @include('livewire.layout.navigation')
-        <center class="m-auto flex flex-col gap-y-6">
+        <center class="m-auto flex flex-col gap-y-5">
             <h3 class="font-bold text-7xl sm:text-8xl text-white">Paws & Preferences</h3>
 
             <a class="rounded-3xl bg-gradient-to-r from-pink-500 via-orange-500 to-rose-500 text-white text-x font-bold px-8 py-2.5 max-w-fit mx-auto"
