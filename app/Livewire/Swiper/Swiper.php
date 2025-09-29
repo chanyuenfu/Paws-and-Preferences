@@ -14,7 +14,7 @@ class Swiper extends Component
     public function mount()
     {
         $response = Http::get('https://cataas.com/api/cats?limit=10');
-        
+
         //dd($response->json());
         
         $this->cats = collect($response->json())->map(function ($cat, $index) {
